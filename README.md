@@ -95,10 +95,10 @@ public class Main {
 }
 ```
 
-2. **Object** adalah instance dari class. Pada kode ini, `mhs[i] = new MahasiswaDetail(nama, npm);` adalah contoh pembuatan object.
+2. **Object** adalah instance dari class. Pada kode ini, `sepatu[i] = new TokoSepatu(kode, merk);` adalah contoh pembuatan object.
 
 ```bash
-mhs[i] = new MahasiswaDetail(nama, npm);
+sepatu[i] = new TokoSepatu(kode, merk);
 ```
 
 3. **Atribut** adalah variabel yang ada dalam class. Pada kode ini, `kode` , `merk`,`ukuran` , `harga` adalah contoh atribut.
@@ -198,10 +198,10 @@ pub// Membuat objek toko
 11. **Perulangan** adalah statement kontrol yang digunakan untuk menjalankan blok kode berulang kali. Pada kode ini, digunakan loop `for` untuk meminta input dan menampilkan data.
 
 ```bash
-for (int i = 0; i < mahasiswas.length; i++) {
-    ...
-}
-```
+forEach((sepatu) -> {
+            System.out.println("Kode: " + sepatu.getKode() + ", Merk: " + sepatu.getMerk()
+                    + ", Ukuran: " + sepatu.getUkuran() + ", Harga: " + sepatu.getHarga());
+         });
 
 12. **Input Output Sederhana** digunakan untuk menerima input dari user dan menampilkan output ke user. Pada kode ini, digunakan class `Scanner` untuk menerima input dan method `System.out.println` untuk menampilkan output.
 
